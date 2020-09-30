@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tab, Tabs,Grid, Cell } from 'react-mdl';
+import { Tab, Tabs, Grid, Cell, Card, CardTitle, Button, CardText, CardActions, CardMenu, IconButton } from 'react-mdl';
 import "../App.css";
 class Projects extends React.Component {
     constructor(props) {
@@ -7,39 +7,102 @@ class Projects extends React.Component {
         this.state = { activeTab: 0 }
     }
     toggleCategories() {
-        if(this.state.activeTab === 0)
-         {
-             return(
-                 <div>
-                     <h1>This is React</h1>
-                 </div>
-             )
-         }
-         else if( this.state.activeTab === 1)
-         {
-            return(
-                <div>
-                    <h1>This is React Native</h1>
+        if (this.state.activeTab === 0) {
+            return (
+                <div className="card">
+                    <Card shadow={4} style={{ minWidth: '424px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover' }}>Welcome</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Get Started</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    <Card shadow={4} style={{ minWidth: '424px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover' }}>Welcome</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Get Started</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+
+
                 </div>
             )
-         }
-          else if( this.state.activeTab === 2)
-         {
-            return(
+        }
+        else if (this.state.activeTab === 1) {
+            return (
                 <div>
-                    <h1>This is Andriod</h1>
+                    <Card shadow={4} style={{ minWidth: '424px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover' }}>Welcome</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Get Started</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
                 </div>
             )
-         }
-          else if( this.state.activeTab === 3)
-         {
-            return(
+        }
+        else if (this.state.activeTab === 2) {
+            return (
                 <div>
-                    <h1>This is Puthon</h1>
+                    <Card shadow={4} style={{ minWidth: '424px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover' }}>Welcome</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Get Started</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                       >
                 </div>
             )
-         }
-    }    
+        }
+        else if (this.state.activeTab === 3) {
+            return (
+                <div>
+                    <Card shadow={4} style={{ minWidth: '424px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover' }}>Welcome</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Get Started</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                       >
+                </div>
+            )
+        }
+    }
 
 
     render() {
@@ -57,14 +120,12 @@ class Projects extends React.Component {
                     <Tab>Andriod</Tab>
                     <Tab>Python</Tab>
                 </Tabs>
-                <section className="grid">
-                    <Grid className="grid">
-                        <Cell col={12}>
-                            <div className="content"> {this.toggleCategories()}</div>
-                        </Cell>
-                    </Grid>
-                   
-                </section>
+
+                <Grid >
+                    <Cell col={12}>
+                        <div className="content"> {this.toggleCategories()}</div>
+                    </Cell>
+                </Grid>
             </div>
         )
     }

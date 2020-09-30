@@ -38,10 +38,10 @@ function App() {
                       }
                     },
                     number: {
-                      value: 140
+                      value: 80
                     },
                     size: {
-                      value: 3
+                      value: 2
                     }
                   }
                 }} />

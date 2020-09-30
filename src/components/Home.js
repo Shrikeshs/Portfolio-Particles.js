@@ -8,7 +8,7 @@ function Home() {
             <Grid className='landing-grid'>
                 <Cell col={12}>
                     
-                        <img src="https://www.iconfinder.com/data/icons/avatar-78/128/12-512.png"
+                        <img src="https://user-images.githubusercontent.com/25447240/94701363-32d9b300-035a-11eb-8fd3-245a5e14753b.jpg"
                             alt="kkkk"
                             className="ImgAvatar"
                         />
