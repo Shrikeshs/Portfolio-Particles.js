@@ -100,3 +100,6 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.tabText {
+  font-weight: bold;
+}
