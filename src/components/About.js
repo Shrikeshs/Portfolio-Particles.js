@@ -2,11 +2,7 @@ import React from 'react';
 import { Cell, Grid, List, ListItem, ListItemContent } from 'react-mdl';
 class About extends React.Component {
 
-    clicked()  {
-        return (
-            <a href="www.google.com"></a>
-        )
-    };
+
 render(){
      return (
         <div className="Banner">

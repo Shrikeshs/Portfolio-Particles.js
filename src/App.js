@@ -3,6 +3,7 @@ import { Navigation, Header, Layout, Drawer, Content } from 'react-mdl'
 import { Link } from 'react-router-dom'
 import Router from './components/routing';
 import Particle from 'react-particles-js';
+import "./App.css";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
               <Link to="/project" style={{ color: '#000000' }}>Project</Link>
               <Link to="/edu" style={{ color: '#000000' }}>Education</Link>
               <Link to="/about" style={{ color: '#000000' }}>About</Link>
+           
 
             </Navigation>
           </Header>
@@ -21,6 +23,7 @@ function App() {
               <Link to="/project" style={{ color: '#ffffff' }}>Project</Link>
               <Link to="/edu" style={{ color: '#ffffff' }}>Education</Link>
               <Link to="/about" style={{ color: '#ffffff' }}>About</Link>
+              
             </Navigation>
           </Drawer>
           <Content className="body">
