@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Particles.js/static/css/main.5c462f38.chunk.css",
+    "main.js": "/Portfolio-Particles.js/static/js/main.ffa9997f.chunk.js",
+    "main.js.map": "/Portfolio-Particles.js/static/js/main.ffa9997f.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Particles.js/static/js/runtime-main.505ba7dc.js",
+    "runtime-main.js.map": "/Portfolio-Particles.js/static/js/runtime-main.505ba7dc.js.map",
+    "static/css/2.be4c3321.chunk.css": "/Portfolio-Particles.js/static/css/2.be4c3321.chunk.css",
+    "static/js/2.860ae297.chunk.js": "/Portfolio-Particles.js/static/js/2.860ae297.chunk.js",
+    "static/js/2.860ae297.chunk.js.map": "/Portfolio-Particles.js/static/js/2.860ae297.chunk.js.map",
+    "index.html": "/Portfolio-Particles.js/index.html",
+    "precache-manifest.1b3926f12583796972df5bf95e5932e6.js": "/Portfolio-Particles.js/precache-manifest.1b3926f12583796972df5bf95e5932e6.js",
+    "service-worker.js": "/Portfolio-Particles.js/service-worker.js",
+    "static/css/2.be4c3321.chunk.css.map": "/Portfolio-Particles.js/static/css/2.be4c3321.chunk.css.map",
+    "static/css/main.5c462f38.chunk.css.map": "/Portfolio-Particles.js/static/css/main.5c462f38.chunk.css.map",
+    "static/js/2.860ae297.chunk.js.LICENSE.txt": "/Portfolio-Particles.js/static/js/2.860ae297.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.505ba7dc.js",
+    "static/css/2.be4c3321.chunk.css",
+    "static/js/2.860ae297.chunk.js",
+    "static/css/main.5c462f38.chunk.css",
+    "static/js/main.ffa9997f.chunk.js"
+  ]
+}
